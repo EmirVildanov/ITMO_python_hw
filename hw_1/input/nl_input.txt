@@ -1,0 +1,9 @@
+First line
+Second line
+
+Line above is empty
+
+
+Two above lines are empty
+
+Line above is not empty (there are tabs)

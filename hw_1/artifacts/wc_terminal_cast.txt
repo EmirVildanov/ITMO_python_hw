@@ -1,0 +1,18 @@
+(venv) emir@emir-Nitro-AN515-54 ~/D/I/p/p/hw_1 (master)> wc
+a a
+b b b      1       5       9
+(venv) emir@emir-Nitro-AN515-54 ~/D/I/p/p/hw_1 (master)> python3 wc.py
+a a
+b b b   1       5       9
+(venv) emir@emir-Nitro-AN515-54 ~/D/I/p/p/hw_1 (master)> wc input/wc_input_first.txt
+0 3 5 input/wc_input_first.txt
+(venv) emir@emir-Nitro-AN515-54 ~/D/I/p/p/hw_1 (master)> python3 wc.py input/wc_input_first.txt
+0 3 5 input/wc_input_first.txt
+(venv) emir@emir-Nitro-AN515-54 ~/D/I/p/p/hw_1 (master)> wc input/wc_input_first.txt input/wc_input_second.txt
+ 0  3  5 input/wc_input_first.txt
+ 2  3  6 input/wc_input_second.txt
+ 2  6 11 total
+(venv) emir@emir-Nitro-AN515-54 ~/D/I/p/p/hw_1 (master)> python3 wc.py input/wc_input_first.txt input/wc_input_second.txt
+0 3 5 input/wc_input_first.txt
+2 3 6 input/wc_input_second.txt
+2 6 11 total

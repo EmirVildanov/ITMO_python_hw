@@ -1,0 +1,31 @@
+(venv) emir@emir-Nitro-AN515-54 ~/D/I/p/p/hw_1 (master)> python3 nl.py input/nl_input.txt smth
+Usage: custom_nl [file_name]
+(venv) emir@emir-Nitro-AN515-54 ~/D/I/p/p/hw_1 (master) [1]> python3 nl.py input/nl_input.txt
+        1 First line
+        2 Second line
+        3
+        4 Line above is empty
+        5
+        6
+        7 Two above lines are empty
+        8
+        9 Line above is not empty (there are tabs)
+(venv) emir@emir-Nitro-AN515-54 ~/D/I/p/p/hw_1 (master)> python3 nl.py
+First
+Second
+
+Fourth
+        1 First
+        2 Second
+        3
+        4 Fourth
+(venv) emir@emir-Nitro-AN515-54 ~/D/I/p/p/hw_1 (master)> nl -b a input/nl_input.txt
+     1  First line
+     2  Second line
+     3
+     4  Line above is empty
+     5
+     6
+     7  Two above lines are empty
+     8
+     9  Line above is not empty (there are tabs)

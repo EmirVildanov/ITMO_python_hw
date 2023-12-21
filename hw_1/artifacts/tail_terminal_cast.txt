@@ -1,0 +1,130 @@
+(venv) emir@emir-Nitro-AN515-54 ~/D/I/p/p/hw_1 (master) [1]> tail  input/tail_input_first.txt
+3
+3
+4
+4
+4
+4
+5
+5
+5
+5
+(venv) emir@emir-Nitro-AN515-54 ~/D/I/p/p/hw_1 (master)> tail  input/tail_input_first.txt input/tail_input_second.txt
+==> input/tail_input_first.txt <==
+3
+3
+4
+4
+4
+4
+5
+5
+5
+5
+
+==> input/tail_input_second.txt <==
+20
+30
+40
+50
+60
+70
+80
+90
+100
+110⏎                                                                                                                                                                                      (venv) emir@emir-Nitro-AN515-54 ~/D/I/p/p/hw_1 (master)> tail  input/tail_input_first.txt smth
+==> input/tail_input_first.txt <==
+3
+3
+4
+4
+4
+4
+5
+5
+5
+5
+tail: cannot open 'smth' for reading: No such file or directory
+(venv) emir@emir-Nitro-AN515-54 ~/D/I/p/p/hw_1 (master) [1]> python3 tail.py
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+(venv) emir@emir-Nitro-AN515-54 ~/D/I/p/p/hw_1 (master)> python3 tail.py input/tail_input_first.txt
+3
+3
+4
+4
+4
+4
+5
+5
+5
+5
+(venv) emir@emir-Nitro-AN515-54 ~/D/I/p/p/hw_1 (master)> python3 tail.py input/tail_input_first.txt input/tail_input_second.txt
+==> input/tail_input_first.txt <==
+3
+3
+4
+4
+4
+4
+5
+5
+5
+5
+
+==> input/tail_input_second.txt <==
+20
+30
+40
+50
+60
+70
+80
+90
+100
+110
+(venv) emir@emir-Nitro-AN515-54 ~/D/I/p/p/hw_1 (master)> python3 tail.py input/tail_input_first.txt smth
+==> input/tail_input_first.txt <==
+3
+3
+4
+4
+4
+4
+5
+5
+5
+5
+File smth not found
