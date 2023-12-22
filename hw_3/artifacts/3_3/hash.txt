@@ -1,0 +1,2 @@
+AB hash: 9
+CD hash: 9
