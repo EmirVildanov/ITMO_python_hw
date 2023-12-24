@@ -1,0 +1,3 @@
+Synchronous time:     33.7252631187439
+Threads time:         34.81338667869568
+Multiprocessing time: 11.797896146774292
